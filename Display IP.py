@@ -6,6 +6,7 @@ from tkinter import messagebox
 
 #running ipconfig cmd
 process = check_output('ipconfig').decode('utf-8')
+print(process)
 cmd_out_list = process.split('\n')
 op=[]
 
